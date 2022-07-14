@@ -1,0 +1,159 @@
+.logo {
+    font-family: 'Lobster', cursive;
+
+}
+
+.klem {
+    line-height: 2em;
+    margin: 70px;
+    width: 50%;
+    float: left;
+}
+
+.image {
+   
+    float: left;
+    width: 35%;
+   
+}
+.about{
+    float: left;
+    font-family: 'Lobster', cursive;
+
+  
+}
+.ktiba{
+    float: right;
+    margin: 50px;
+    width: 40%;
+    justify-content: center;
+    
+}
+
+.skills{
+    font-family: 'Lobster', cursive;
+    justify-content: center;
+    width: 60%;
+    float: right;
+
+}
+.progress{
+    margin-top: 5%;
+    width: 50%;
+    margin: 10px;
+    height: 10%;
+    float: left;
+
+
+}
+.bests-items{
+    margin: 50px;
+}
+
+.bests-serv{
+    
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.serv-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex:1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nos-grid{
+    min-width: 350px;
+    height: 500px
+    flex : 1px;
+}
+.x1{
+    background-image: url(.././images/page4.png);
+    
+}
+.x2{
+    background-image: url(../images/page5.png);
+    
+
+}
+.x3{
+    background-image: url(../images/page6.png);
+    
+}
+.x4{
+    background-image: url(../images/page7.png);
+    
+}
+.x5{
+    background-image: url(../images/page8.png);
+    
+}
+.x6{
+    background-image: url(../images/page9.png);
+    
+}
+
+.serv-details{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+
+}
+.serv-name{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+.serv-desc{
+    color: black;
+   
+    font-size: 14px;
+    font-weight: 800;
+}
+.get{
+    float: right;
+    margin: 10%;
+    width: 50%;
+    justify-content: center;
+    
+
+}
+nav.nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+    width: 400px;
+    margin-left: 30px;
+}
+.nav-link {
+    
+    text-decoration: none;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+    width: 40%;
+    float: right;
+
+}
+
+
+
